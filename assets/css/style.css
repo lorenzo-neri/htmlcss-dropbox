@@ -8,6 +8,10 @@
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 body{
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -39,6 +43,9 @@ body{
 }
 .debug .big_col, .debug .small_col, .debug .equal_col, .debug .large_col{
     background-color: rgb(238, 135, 238);
+}
+.debug .card{
+    background-color: pink;
 }
 /* #endregion debug */
 
@@ -78,11 +85,21 @@ section{
 .head_col{
     justify-content: center;
 }
+
 /* #region large column */
 .large_col>.main_col>.d-flex{
     justify-content: space-between;
 }
-/* #endregion large column */
+
+/* #region card */
+.card{
+    width: calc(100%/3);
+}
+.card>img{
+    width: 100%;
+}
+
+
 /* #endregion main */
 
 
