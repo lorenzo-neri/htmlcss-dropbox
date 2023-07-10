@@ -4,14 +4,31 @@
     box-sizing: border-box;
 }
 
+.d-flex{
+    display: flex;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 /* #region debug */
-
+.debug header{
+    background-color: red;
+    height: 80px;
+}
 
 /* #endregion debug */
 
 
 /* #region header */
+header{
+    background-color: var(--db-light);
+    justify-content: space-between;
+    align-items: center;
+}
 /* #endregion header */
 
 
