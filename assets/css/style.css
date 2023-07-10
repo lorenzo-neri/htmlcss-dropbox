@@ -122,6 +122,12 @@ h1{
 .free_trial>div{
     justify-content: space-between;
 }
+/* #endregion clients */
+
+.faq{
+    justify-content: space-between;
+}
+
 /* #endregion main */
 
 
