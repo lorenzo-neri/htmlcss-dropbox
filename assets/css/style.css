@@ -37,6 +37,14 @@ section{
     font-size: 0.9rem;
 }
 
+.py_2{
+    padding: 6rem 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    padding-bottom: 3rem
+}
 /* #region debug */
 .debug header{
     background-color: rgb(255, 123, 123);
@@ -112,6 +120,20 @@ h1{
     height: 23rem
 }
 /* #endregion hero image */
+input{
+    appearance: none;
+    border: 2px lightgray solid;
+    border-radius: 50%;
+    width: 1.15em;
+    height: 1.15em;
+    border-radius: 50%;
+}
+input[type="radio"]:checked:after {
+    background-color: blue;
+}
+input:checked:after {
+    background-color: red;
+}
 .equal_col{
     width: calc(100%/3);
     justify-content: center;
