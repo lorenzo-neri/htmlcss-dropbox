@@ -37,7 +37,7 @@ body{
     background-color: rgb(233, 233, 102);
     padding: 1rem;
 }
-.debug .big_col, .debug .small_col, .debug .equal_col{
+.debug .big_col, .debug .small_col, .debug .equal_col, .debug .large_col{
     background-color: rgb(238, 135, 238);
 }
 /* #endregion debug */
@@ -78,6 +78,11 @@ section{
 .head_col{
     justify-content: center;
 }
+/* #region large column */
+.large_col>.main_col>.d-flex{
+    justify-content: space-between;
+}
+/* #endregion large column */
 /* #endregion main */
 
 
