@@ -23,10 +23,23 @@ body{
 
 /* #region debug */
 .debug header{
-    background-color: red;
+    background-color: rgb(255, 123, 123);
     height: 80px;
 }
-
+.debug section{
+    border: 1px dashed black;
+    background-color: rgba(192, 255, 98, 0.719);
+}
+.debug .container{
+    background-color: rgba(109, 109, 246, 0.625);
+}
+.debug .row{
+    background-color: rgb(233, 233, 102);
+    padding: 1rem;
+}
+.debug .big_col, .debug .small_col, .debug .equal_col{
+    background-color: rgb(238, 135, 238);
+}
 /* #endregion debug */
 
 
@@ -43,6 +56,9 @@ header{
 .hero_image{
     background-color: var(--db-main);
 }
+h1{
+    font-size: xx-large;
+}
 .small_col{
     width: 40%;
 }
@@ -51,6 +67,16 @@ header{
 }
 .big_col>img{
     width: 100%;
+}
+section{
+    background-color: var(--db-light);
+}
+.equal_col{
+    width: calc(100%/3);
+    justify-content: center;
+}
+.head_col{
+    justify-content: center;
 }
 /* #endregion main */
 
