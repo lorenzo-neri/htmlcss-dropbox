@@ -25,6 +25,10 @@ body{
     padding: 1rem 0;
 }
 
+section{
+    background-color: var(--db-light);
+}
+
 /* #region debug */
 .debug header{
     background-color: rgb(255, 123, 123);
@@ -39,7 +43,6 @@ body{
 }
 .debug .row{
     background-color: rgb(233, 233, 102);
-    padding: 1rem;
 }
 .debug .big_col, .debug .small_col, .debug .equal_col, .debug .large_col{
     background-color: rgb(238, 135, 238);
@@ -75,9 +78,6 @@ h1{
 .big_col>img{
     width: 100%;
 }
-section{
-    background-color: var(--db-light);
-}
 .equal_col{
     width: calc(100%/3);
     justify-content: center;
@@ -99,6 +99,22 @@ section{
     width: 100%;
 }
 
+/* #region clients */
+.clients{
+    width:calc(100%/3);
+}
+.clients>img{
+    width: 50%;
+}
+.client{
+    width: calc(100%/2);
+    aspect-ratio: 1;
+    justify-content:center;
+    
+}
+.client>img{
+    width: 50%;
+}
 
 /* #endregion main */
 
