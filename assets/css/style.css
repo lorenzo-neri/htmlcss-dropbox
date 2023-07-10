@@ -29,6 +29,12 @@ section{
     background-color: var(--db-light);
 }
 
+.blue_button{
+    color: var(--db-light);
+    background-color: var(--db-secondary);
+    padding: 0.5rem 1rem;
+}
+
 /* #region debug */
 .debug header{
     background-color: rgb(255, 123, 123);
@@ -58,7 +64,20 @@ header{
     background-color: var(--db-light);
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
 }
+nav>a{
+    text-decoration: none;
+    color: var(--db-dark);
+}
+nav>a>img{
+    width: 6.5rem;
+}
+.left_nav, .right_nav{
+    gap: 2rem;
+    align-items: center;
+}
+
 /* #endregion header */
 
 
