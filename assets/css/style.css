@@ -85,12 +85,10 @@ h1{
 .head_col{
     justify-content: center;
 }
-
 /* #region large column */
 .large_col>.main_col>.d-flex{
     justify-content: space-between;
 }
-
 /* #region card */
 .card{
     width: calc(100%/3);
@@ -98,7 +96,6 @@ h1{
 .card>img{
     width: 100%;
 }
-
 /* #region clients */
 .clients{
     width:calc(100%/3);
@@ -123,15 +120,22 @@ h1{
     justify-content: space-between;
 }
 /* #endregion clients */
-
 .faq{
     justify-content: space-between;
 }
-
 /* #endregion main */
 
-
 /* #region footer */
+footer{
+    background-color: var(--db-dark);
+    color: var(--db-light);
+}
+.foot_col{
+    width: calc(100%/5);
+}
+li{
+    list-style: none;
+}
 /* #endregion footer */
 
 /* #region colors */
