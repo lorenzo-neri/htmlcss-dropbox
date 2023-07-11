@@ -36,8 +36,16 @@ section{
     font-size: 0.9rem;
 }
 
-.py_2{
+.p_xy{
     padding: 6rem 3rem;
+}
+
+.space_btw{
+    justify-content: space-between;
+}
+
+.jc_center{
+    justify-content: center;
 }
 
 h2{
@@ -132,12 +140,49 @@ input+input{
     margin-left: 3rem;
 }
 .equal_col{
-    width: calc(100%/3);
+    width: calc(100%/3 - 1rem);
     justify-content: center;
-    padding-top: 2rem;
+    margin-top: 3rem;
 }
 .head_col{
     justify-content: center;
+    padding: 0.5rem 0;
+    border: 1px solid lightgray;
+    border-bottom: none;
+    align-items: center;
+    gap: 5px;
+}
+.main_col{
+    border: 1px solid lightgray;
+    padding: 1.8rem 1.5rem;
+    height: 800px;
+}
+.main_col>h3{
+    padding-bottom: 1rem;
+}
+.price{
+    font-weight: 700;
+    padding-bottom: 0.6rem;
+}
+.period{
+    font-weight: 100;
+    color: gray;
+    padding-bottom: 2.5rem;
+}
+.info_biz_plan{
+    gap: 5px;
+    align-items: flex-start;
+    padding-bottom: 0.5rem;
+}
+.info_biz_plan+.blue_btn{
+    margin: 2rem 0;
+}
+.s_hr{
+    margin: 2.5rem 0;
+    width: 3rem;
+}
+hr+h5{
+    padding-bottom: 1rem;
 }
 /* #region large column */
 .large_col>.main_col>.d-flex{
