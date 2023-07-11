@@ -39,9 +39,7 @@ section{
 .p_xy{
     padding: 6rem 3rem;
 }
-.p_y{
-    padding: 5px;
-}
+
 .space_btw{
     justify-content: space-between;
 }
@@ -50,8 +48,12 @@ section{
     justify-content: center;
 }
 
+.ai_center{
+    align-items: center;
+}
+
 h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 3rem 0;
 }
 /* #region debug */
@@ -123,7 +125,7 @@ h1{
 .big_col{
     width: 60%;
 }
-.big_col>img{
+.hero_image>.container>.row>.big_col>img{
     height: 23rem
 }
 /* #endregion hero image */
@@ -163,7 +165,7 @@ input+input{
     height: 100%;
     height: 730px;
 }
-.main_col>h3{
+.card_col>h3{
     padding-bottom: 1rem;
 }
 .price{
@@ -193,20 +195,61 @@ hr+h5{
 /* #region large column */
 .large_col>.main_col>.d-flex{
     justify-content: space-between;
+    padding-bottom: 0.5rem;
 }
-/* #region card */
+.large_col>.main_col>.d-flex+div{
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+
+/* #region second section */
+.second_section>.container>.row>.big_col>img{
+    width: 100%;
+}
+.second_section>.container>.row>.small_col{
+    padding-left: 2rem;
+    padding-top: 3rem;
+}
+.small_col>h3{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* #region third section */
 .card{
     width: calc(100%/3);
+    padding: 1.5rem;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px var(--db-main);
+    border-radius: 30px;
+    transition: 0.5s;
 }
 .card>img{
     width: 100%;
 }
+.card>h3{
+    padding-bottom: 1.5rem;
+}
+.white_btn_bb{
+    color: var(--db-dark);
+    background-color: var(--db-light);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: 1px solid var(--db-dark);
+}
+/* #region fourth section */
 /* #region clients */
 .clients{
     width:calc(100%/3);
 }
+.center_client{
+    padding: 2.5rem;
+}
 .clients>img{
     width: 50%;
+    padding-bottom: 2rem;
 }
 .client{
     width: calc(100%/2);
@@ -218,15 +261,38 @@ hr+h5{
     filter: invert(1);
     width: 50%;
 }
+/* #endregion clients */
 .free_trial{
     background-color: var(--db-main);
+    justify-content: space-between;
 }
 .free_trial>div{
     justify-content: space-between;
 }
-/* #endregion clients */
+.white_btn{
+    color: var(--db-dark);
+    background-color: var(--db-light);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.free_trial>div>h2{
+width: 60%;
+color: #61092a;
+}
+/* #region fiveth client */
+.fiveth_section{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
 .faq{
     justify-content: space-between;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 2rem 0;
+}
+.fa-angle-down{
+    padding-right: 1rem;
 }
 /* #endregion main */
 
@@ -238,8 +304,23 @@ footer{
 .foot_col{
     width: calc(100%/5);
 }
+h4{
+    font-size: 1.4rem;
+    padding: 2rem 0;
+}
 li{
     list-style: none;
+    padding-bottom: 0.8rem;
+    font-weight: 100;
+}
+#foot_hr{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    width: 15%;
+}
+.language{
+    align-items: center;
+    gap: 1rem;
 }
 /* #endregion footer */
 
