@@ -15,21 +15,20 @@
 body{
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .container{
     max-width: 1170px;
     margin: auto;
     width: 80%;
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 
 section{
     background-color: var(--db-light);
 }
 
-.blue_button{
+.blue_btn{
     color: var(--db-light);
     background-color: var(--db-secondary);
     padding: 0.5rem 1rem;
@@ -43,7 +42,7 @@ section{
 
 h2{
     font-size: 2rem;
-    padding-bottom: 3rem
+    padding: 3rem 0;
 }
 /* #region debug */
 .debug header{
@@ -95,14 +94,12 @@ nav>a>img{
 /* #region hero image */
 h1{
     font-size: xx-large;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
+    font-size: 3.5rem;
 }
 .hero_image{
     background-color: var(--db-main);
     height: 35rem;
-}
-h1{
-    font-size: 3rem;
 }
 .small_col{
     width: 40%;
@@ -128,15 +125,16 @@ input{
     height: 1.15em;
     border-radius: 50%;
 }
-input[type="radio"]:checked:after {
-    background-color: blue;
+h2+input{
+    border: 4px solid var(--db-secondary);
 }
-input:checked:after {
-    background-color: red;
+input+input{
+    margin-left: 3rem;
 }
 .equal_col{
     width: calc(100%/3);
     justify-content: center;
+    padding-top: 2rem;
 }
 .head_col{
     justify-content: center;
