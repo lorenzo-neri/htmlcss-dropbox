@@ -39,7 +39,9 @@ section{
 .p_xy{
     padding: 6rem 3rem;
 }
-
+.p_y{
+    padding: 5px;
+}
 .space_btw{
     justify-content: space-between;
 }
@@ -155,6 +157,10 @@ input+input{
 .main_col{
     border: 1px solid lightgray;
     padding: 1.8rem 1.5rem;
+    margin-bottom: 2rem;
+}
+.card_col{
+    height: 100%;
     height: 800px;
 }
 .main_col>h3{
