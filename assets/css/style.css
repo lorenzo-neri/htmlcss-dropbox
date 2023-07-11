@@ -141,6 +141,9 @@ h1{
 .small_col>div{
     padding-top: 2rem;
 }
+#ancor{
+    transition: 1s;
+}
 .big_col{
     width: 60%;
 }
