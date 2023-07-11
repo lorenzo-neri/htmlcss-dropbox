@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .d-flex{
     display: flex;
@@ -236,7 +239,21 @@ hr+h5{
     font-size: 2rem;
     padding-bottom: 2rem;
 }
-
+.white_btn_bb{
+    color: var(--db-dark);
+    background-color: var(--db-light);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: 1px solid var(--db-dark);
+    transition: .5s;
+}
+.white_btn_bb:hover{
+    color: var(--db-light);
+    background-color: var(--db-secondary);
+    border: 1px solid var(--db-secondary);
+    border-radius: 20px;
+}
 /* #region third section */
 .card{
     width: calc(100%/3);
@@ -252,14 +269,6 @@ hr+h5{
 }
 .card>h3{
     padding-bottom: 1.5rem;
-}
-.white_btn_bb{
-    color: var(--db-dark);
-    background-color: var(--db-light);
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    font-size: 0.9rem;
-    border: 1px solid var(--db-dark);
 }
 /* #region fourth section */
 /* #region clients */
@@ -278,11 +287,16 @@ hr+h5{
     aspect-ratio: 1;
     justify-content:center;
     align-items: center;
+    transition: .3s;
+}
+.client:hover{
+    border: 15px solid rgba(250, 250, 250, 0.2);
 }
 .client>img{
     filter: invert(1);
     width: 50%;
 }
+
 /* #endregion clients */
 .free_trial{
     background-color: var(--db-main);
@@ -297,25 +311,52 @@ hr+h5{
     padding: 0.5rem 1rem;
     text-decoration: none;
     font-size: 0.9rem;
+    transition: .3s;
+    border-radius: 10px;
+}
+.white_btn:hover{
+    color: var(--db-light);
+    background-color: var(--db-secondary);
+    border: 1px solid var(--db-secondary);
+    border-radius: 20px;
 }
 .free_trial>div>h2{
 width: 60%;
 color: #61092a;
 }
-/* #region fiveth client */
-.fiveth_section{
+/* #region fifth section */
+.fifth_section{
     padding-top: 1rem;
     padding-bottom: 4rem;
 }
 .faq{
-    justify-content: space-between;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     padding: 2rem 0;
 }
-.fa-angle-down{
-    padding-right: 1rem;
+.ask{
+    justify-content: space-between;
+    font-weight: 600;    
 }
+
+.fa-angle-up{
+    display: none;
+    
+}
+.answer{
+    padding: 1rem 3rem;
+    padding-top: 2rem;
+    display: none;
+}
+.faq:hover .fa-angle-up,
+.faq:hover .answer {
+  display: inline-block;
+}
+
+.faq:hover .fa-angle-down{
+  display: none;
+}
+
 /* #endregion main */
 
 /* #region footer */
@@ -332,8 +373,9 @@ h4{
 }
 li{
     list-style: none;
-    padding-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
     font-weight: 100;
+    transition: 0.4s;
 }
 #foot_hr{
     margin-top: 6rem;
@@ -343,6 +385,10 @@ li{
 .language{
     align-items: center;
     gap: 1rem;
+}
+
+li:hover{
+    color: var(--db-secondary)
 }
 /* #endregion footer */
 
