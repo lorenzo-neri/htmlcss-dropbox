@@ -338,7 +338,9 @@ color: #61092a;
     justify-content: space-between;
     font-weight: 600;    
 }
-
+.fa-angle-down{
+    transition: .5s;
+}
 .answer{
     padding: 1rem 3rem;
     padding-top: 2rem;
