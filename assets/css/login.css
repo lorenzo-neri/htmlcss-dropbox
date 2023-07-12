@@ -117,10 +117,25 @@ header a:hover{
 }
 .btn{
     width: 100%;
-    border: 1px solid lightgray;
-    border-radius: 6px;
     position: relative;
     margin: 1.5rem 0;
+    transition: .3s;
+}
+.google{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    
+}
+.google:hover{
+    background-color: rgba(111, 172, 251, 0.239);
+}
+.apple{
+    border: 1px solid rgb(172, 172, 172);
+    padding-bottom: 1px;
+
+}
+.apple:hover{
+    background-color: rgba(211, 211, 211, 0.467);
 }
 .logo, .text{
     padding-top: 8px;
