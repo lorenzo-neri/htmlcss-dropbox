@@ -50,6 +50,10 @@ section{
 .pb_s{
     padding-bottom: 0.9rem;
 }
+.p_x_s{
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
 .space_btw{
     justify-content: space-between;
 }
