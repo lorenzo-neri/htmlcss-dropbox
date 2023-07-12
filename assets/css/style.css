@@ -354,7 +354,7 @@ color: #61092a;
 }
 
 .faq:hover .fa-angle-down{
-  display: none;
+  transform: rotate(180deg);
 }
 
 /* #endregion main */
