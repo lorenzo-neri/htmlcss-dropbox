@@ -47,7 +47,9 @@ section{
 .p_xy{
     padding: 6rem 3rem;
 }
-
+.pb_s{
+    padding-bottom: 0.9rem;
+}
 .space_btw{
     justify-content: space-between;
 }
