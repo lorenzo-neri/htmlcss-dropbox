@@ -134,12 +134,13 @@ header a:hover{
 /* #region hero image */
 h1{
     font-size: xx-large;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     font-size: 3.5rem;
+    padding-top: 1rem;
 }
 .hero_image{
     background-color: var(--db-main);
-    height: 35rem;
+    height: 36rem;
 }
 .small_col{
     width: 40%;
@@ -150,8 +151,8 @@ h1{
 .small_col>div{
     padding-top: 2rem;
 }
-#ancor{
-    transition: 1s;
+.arrow-down{
+    font-size: 1.5rem;
 }
 .big_col{
     width: 60%;
