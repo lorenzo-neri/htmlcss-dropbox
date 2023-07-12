@@ -378,7 +378,6 @@ li{
     list-style: none;
     margin-bottom: 0.8rem;
     font-weight: 100;
-    transition: 0.4s;
 }
 #foot_hr{
     margin-top: 6rem;
@@ -390,8 +389,13 @@ li{
     gap: 1rem;
 }
 
-li:hover{
+li:hover, li>a:hover{
     color: var(--db-secondary)
+}
+li>a{
+    text-decoration: none;
+    color: var(--db-light);
+    transition: 0.4s;
 }
 /* #endregion footer */
 
