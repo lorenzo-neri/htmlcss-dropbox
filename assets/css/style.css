@@ -339,16 +339,11 @@ color: #61092a;
     font-weight: 600;    
 }
 
-.fa-angle-up{
-    display: none;
-    
-}
 .answer{
     padding: 1rem 3rem;
     padding-top: 2rem;
     display: none;
 }
-.faq:hover .fa-angle-up,
 .faq:hover .answer {
   display: inline-block;
 }
