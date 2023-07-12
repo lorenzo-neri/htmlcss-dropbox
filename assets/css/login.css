@@ -34,7 +34,7 @@ section{
 .blue_btn{
     color: var(--db-light);
     background-color: var(--db-secondary);
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     text-decoration: none;
     font-size: 0.9rem;
     transition: 0.5s;
@@ -144,7 +144,25 @@ header a:hover{
     border-style: inset;
     border-width: 1px;
 }
-
+#mail{
+    font-size: 0.8rem;
+    color: gray;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+#mail+input{
+    width: 100%;
+    padding: 1rem 2rem;
+    border: 1px solid #cecece;
+    transition: .5s;
+    margin-bottom: 2rem;
+}
+#mail+input:hover{
+    border: 1px solid var(--db-secondary);
+}
+.mb_l{
+    margin-bottom: 3rem;
+}
 
 
 
